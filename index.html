@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Miguel Gómez | Portafolio Profesional</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon" />
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="#" alt="Miguel Gómez" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Miguel Gómez">Miguel Gómez</h1>
+          <p class="title">Desarrollador de Aplicaciones Móviles y Web</p>
+        </div>
+
+        <button class="info-more-btn" data-sidebar-btn>
+          <span>Mostrar contactos</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info-more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Correo</p>
+              <a href="mailto:mg800487@gmail.com" class="contact-link">mg800487@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Teléfono</p>
+              <a href="tel:+573209813741" class="contact-link">+57 320 981 3741</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Cumpleaños</p>
+              <time datetime="2004-06-22">22 de Junio, 2004</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+              <address>Madrid, Cundinamarca - Colombia</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>Acerca de</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resumen</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portafolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contacto</button></li>
+        </ul>
+      </nav>
+
+      <!-- ACERCA DE -->
+      <article class="about active" data-page="acerca de">
+        <header><h2 class="h2 article-title">Acerca de mí</h2></header>
+        <section class="about-text">
+          <p><strong>Soy Miguel Gómez</strong>, Tecnólogo en Análisis y Desarrollo de Software con experiencia en la creación de aplicaciones móviles y web orientadas a la eficiencia y la innovación. Me caracterizo por mi compromiso, adaptabilidad y enfoque en la mejora continua.</p>
+          <p>Mi objetivo es desarrollar soluciones digitales que aporten valor real, combinando un diseño funcional con una arquitectura limpia y escalable. Me apasiona transformar ideas en productos tecnológicos que optimicen procesos y mejoren la experiencia de los usuarios.</p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Lo que hago</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="Desarrollo Web" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Web</h4>
+                <p class="service-item-text">Diseño e implementación de aplicaciones web orientadas a escalabilidad y buenas prácticas.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="Aplicaciones móviles" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicaciones Móviles</h4>
+                <p class="service-item-text">Desarrollo de aplicaciones móviles centradas en experiencia de usuario y rendimiento.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Empresa</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item"><a href="#"><img src="imagenes/logo_elite.png" alt="logo"></a></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUMEN -->
+      <article class="resume" data-page="resumen">
+        <header><h2 class="h2 article-title">Resumen</h2></header>
+
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="book-outline"></ion-icon></div><h3 class="h3">Educación</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Centro de Biotecnología Agropecuaria - SENA</h4>
+              <span>2023 - 2025</span>
+              <p class="timeline-text">Tecnólogo en Análisis y Desarrollo de Software.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div><h3 class="h3">Experiencia</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Prácticas Profesionales - Elite Flower</h4>
+              <span>26 marzo – 24 octubre (6 meses)</span>
+              <p class="timeline-text">Participé en desarrollo frontend y backend, aplicaciones móviles, soporte técnico y automatización de procesos internos.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Desarrollador - Proyectos personales</h4>
+              <span>2023 - Presente</span>
+              <p class="timeline-text">Desarrollo de aplicaciones móviles personales orientadas a productividad y gestión financiera.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+            <h3 class="h3 skills-title">Mis Habilidades</h3>
+
+            <ul class="skills-list content-card">
+                <li class="skills-item">
+                    <div class="title-wrapper">
+                        <h5 class="h5">Diseño Web</h5>
+                        <data value="100">100%</data>
+                    </div>
+
+                    <div class="skills-progress-bg">
+                        <div class="skills-progress-fill" style="width: 85%;"></div>
+                    </div>
+                </li>
+
+                <li class="skills-item">
+                    <div class="title-wrapper">
+                        <h5 class="h5">Aplicaciones Móviles</h5>
+                        <data value="90">90%</data>
+                    </div>
+
+                    <div class="skills-progress-bg">
+                        <div class="skills-progress-fill" style="width: 90%;"></div>
+                    </div>
+                </li>
+
+                <li class="skills-item">
+                    <div class="title-wrapper">
+                        <h5 class="h5">Diseño UI/UX</h5>
+                        <data value="80">80%</data>
+                    </div>
+
+                    <div class="skills-progress-bg">
+                        <div class="skills-progress-fill" style="width: 80%;"></div>
+                    </div>
+                </li>
+
+                <li class="skills-item">
+                    <div class="title-wrapper">
+                        <h5 class="h5">Power BI</h5>
+                        <data value="60">60%</data>
+                    </div>
+
+                    <div class="skills-progress-bg">
+                        <div class="skills-progress-fill" style="width: 60%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+      </article>
+
+      <!-- PORTAFOLIO -->
+      <article class="portfolio" data-page="portafolio">
+        <header><h2 class="h2 article-title">Portafolio</h2></header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>Todos</button></li>
+            <li class="filter-item"><button data-filter-btn>Aplicaciones Móviles</button></li>
+            <li class="filter-item"><button data-filter-btn>Aplicaciones Web</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Selecciona categoría</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Aplicaciones Móviles</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Aplicaciones Web</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <!-- MOVILES -->
+            <li class="project-item active" data-filter-item data-category="aplicaciones móviles">
+              <a href="#" data-open-modal="eliteble">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/4F46E5/FFFFFF?text=EliteBle" alt="EliteBle" loading="lazy">
+                </figure>
+                <h3 class="project-title">EliteBle</h3>
+                <p class="project-category">Aplicación móvil</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones móviles">
+              <a href="#" data-open-modal="sqlapp">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/10B981/FFFFFF?text=SQL+App" alt="SQL" loading="lazy">
+                </figure>
+                <h3 class="project-title">SQL</h3>
+                <p class="project-category">Aplicación móvil</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones móviles">
+              <a href="#" data-open-modal="flowday">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/F59E0B/FFFFFF?text=FlowDay" alt="FlowDay" loading="lazy">
+                </figure>
+                <h3 class="project-title">FlowDay</h3>
+                <p class="project-category">Aplicación móvil</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones móviles">
+              <a href="#" data-open-modal="flowpay">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/EF4444/FFFFFF?text=FlowPay" alt="FlowPay" loading="lazy">
+                </figure>
+                <h3 class="project-title">FlowPay</h3>
+                <p class="project-category">Aplicación móvil</p>
+              </a>
+            </li>
+
+            <!-- WEB -->
+            <li class="project-item active" data-filter-item data-category="aplicaciones web">
+              <a href="#" data-open-modal="ventrix">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/8B5CF6/FFFFFF?text=Ventrix" alt="Ventrix" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ventrix</h3>
+                <p class="project-category">Aplicación web</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones web">
+              <a href="#" data-open-modal="mantenimiento">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/06B6D4/FFFFFF?text=Mantenimiento" alt="Mantenimiento" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mantenimiento</h3>
+                <p class="project-category">Aplicación web</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones web">
+              <a href="#" data-open-modal="presupuesto">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://via.placeholder.com/300x200/84CC16/FFFFFF?text=Presupuesto" alt="Presupuesto" loading="lazy">
+                </figure>
+                <h3 class="project-title">Presupuesto</h3>
+                <p class="project-category">Aplicación web</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CONTACTO -->
+      <article class="contact" data-page="contacto">
+        <header><h2 class="h2 article-title">Contacto</h2></header>
+        <section class="mapbox" data-mapbox>
+            <figure>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15906.356897761!2d-74.2761465!3d4.7323875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7f1c0f9e9c9f%3A0x9c8b9c8b9c8b9c8b!2sMadrid%2C%20Cundinamarca%2C%20Colombia!5e0!3m2!1ses!2sco!4v1647608789441!5m2!1ses!2sco"
+                    width="100%" height="300" loading="lazy"></iframe>
+            </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Envíame un mensaje</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input rows="5"></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensaje</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- MODALES DE PROYECTOS -->
+  <!-- ELITEBLE -->
+  <section id="modal-eliteble" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-eliteble">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-eliteble">EliteBle</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="eliteble">
+            <img src="https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=EliteBle+1" alt="EliteBle - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=EliteBle+2" alt="EliteBle - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=EliteBle+3" alt="EliteBle - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="eliteble" aria-label="Anterior">&#8249;</button>
+              <button data-next="eliteble" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="eliteble">
+            <img src="https://via.placeholder.com/60x40/4F46E5/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/4F46E5/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/4F46E5/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación desarrollada para Elite Flower que permite la comunicación por Bluetooth Low Energy (BLE) con dispositivos ESP32 para realizar configuraciones remotas. Incluye autenticación consultando SQL Server para el inicio de sesión y flujos de configuración de dispositivos.</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Bluetooth BLE</li>
+            <li>SQL Server (consulta de login)</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- SQL -->
+  <section id="modal-sqlapp" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-sqlapp">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-sqlapp">SQL</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="sqlapp">
+            <img src="https://via.placeholder.com/800x500/10B981/FFFFFF?text=SQL+App+1" alt="SQL - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/10B981/FFFFFF?text=SQL+App+2" alt="SQL - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/10B981/FFFFFF?text=SQL+App+3" alt="SQL - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="sqlapp" aria-label="Anterior">&#8249;</button>
+              <button data-next="sqlapp" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="sqlapp">
+            <img src="https://via.placeholder.com/60x40/10B981/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/10B981/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/10B981/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación para ingresar parámetros de conexión (servidor, credenciales, base de datos) y visualizar tablas y vistas de la base de datos en el teléfono. Permite ejecutar consultas manuales y visualizar datos en tablas desde el móvil.</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Conexión a bases de datos remotas</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOWDAY -->
+  <section id="modal-flowday" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-flowday">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-flowday">FlowDay</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="flowday">
+            <img src="https://via.placeholder.com/800x500/F59E0B/FFFFFF?text=FlowDay+1" alt="FlowDay - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/F59E0B/FFFFFF?text=FlowDay+2" alt="FlowDay - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/F59E0B/FFFFFF?text=FlowDay+3" alt="FlowDay - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="flowday" aria-label="Anterior">&#8249;</button>
+              <button data-next="flowday" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="flowday">
+            <img src="https://via.placeholder.com/60x40/F59E0B/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/F59E0B/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/F59E0B/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación personal para gestión de tareas con vista semanal/mensual, recordatorios mediante notificaciones y múltiples espacios (trabajo, casa, estudio, etc.). Guarda los datos localmente usando JSON en SharedPreferences para preservar la privacidad del usuario. (En construcción: ~90%).</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>SharedPreferences (JSON)</li>
+            <li>Notificaciones locales</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOWPAY -->
+  <section id="modal-flowpay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-flowpay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-flowpay">FlowPay</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="flowpay">
+            <img src="https://via.placeholder.com/800x500/EF4444/FFFFFF?text=FlowPay+1" alt="FlowPay - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/EF4444/FFFFFF?text=FlowPay+2" alt="FlowPay - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/EF4444/FFFFFF?text=FlowPay+3" alt="FlowPay - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="flowpay" aria-label="Anterior">&#8249;</button>
+              <button data-next="flowpay" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="flowpay">
+            <img src="https://via.placeholder.com/60x40/EF4444/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/EF4444/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/EF4444/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación personal para gestionar ingresos y categorías de gasto. Permite registrar transacciones, ver informes visuales (gráficas de línea y circulares), establecer objetivos y registrar préstamos. Guarda los datos localmente para garantizar privacidad. (En construcción: ~60%).</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>SharedPreferences (JSON)</li>
+            <li>Gráficos (librería integrada)</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENTRIX -->
+  <section id="modal-ventrix" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-ventrix">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-ventrix">Ventrix</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="ventrix">
+            <img src="https://via.placeholder.com/800x500/8B5CF6/FFFFFF?text=Ventrix+1" alt="Ventrix - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/8B5CF6/FFFFFF?text=Ventrix+2" alt="Ventrix - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/8B5CF6/FFFFFF?text=Ventrix+3" alt="Ventrix - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="ventrix" aria-label="Anterior">&#8249;</button>
+              <button data-next="ventrix" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="ventrix">
+            <img src="https://via.placeholder.com/60x40/8B5CF6/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/8B5CF6/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/8B5CF6/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación web desarrollada como proyecto final en SENA para gestión posventa. Permite gestionar pedidos y flujos según roles (mesero, cajero, cocinero, administrador de sucursal y propietario), con control de permisos y organización por sucursales y mesas.</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Vue 3</li>
+            <li>Java (Spring Boot)</li>
+            <li>Docker</li>
+            <li>Despliegue: Railway</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANTENIMIENTO -->
+  <section id="modal-mantenimiento" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-mantenimiento">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-mantenimiento">Mantenimiento</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="mantenimiento">
+            <img src="https://via.placeholder.com/800x500/06B6D4/FFFFFF?text=Mantenimiento+1" alt="Mantenimiento - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/06B6D4/FFFFFF?text=Mantenimiento+2" alt="Mantenimiento - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/06B6D4/FFFFFF?text=Mantenimiento+3" alt="Mantenimiento - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="mantenimiento" aria-label="Anterior">&#8249;</button>
+              <button data-next="mantenimiento" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="mantenimiento">
+            <img src="https://via.placeholder.com/60x40/06B6D4/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/06B6D4/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/06B6D4/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Aplicación web enfocada en la gestión de mantenimientos para los plásticos de invernaderos, consumo de energía y control de reservorios. Desarrollada con consideraciones de confidencialidad y seguimiento operativo.</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Vue 3</li>
+            <li>Tailwind CSS</li>
+            <li>FlyonUI</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESUPUESTO -->
+  <section id="modal-presupuesto" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="title-presupuesto">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="title-presupuesto">Presupuesto</h3>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div class="carousel" data-carousel="presupuesto">
+            <img src="https://via.placeholder.com/800x500/84CC16/FFFFFF?text=Presupuesto+1" alt="Presupuesto - captura 1" data-slide-index="0">
+            <img src="https://via.placeholder.com/800x500/84CC16/FFFFFF?text=Presupuesto+2" alt="Presupuesto - captura 2" data-slide-index="1" style="display:none">
+            <img src="https://via.placeholder.com/800x500/84CC16/FFFFFF?text=Presupuesto+3" alt="Presupuesto - captura 3" data-slide-index="2" style="display:none">
+            <div class="carousel-controls">
+              <button data-prev="presupuesto" aria-label="Anterior">&#8249;</button>
+              <button data-next="presupuesto" aria-label="Siguiente">&#8250;</button>
+            </div>
+          </div>
+          <div class="thumbs" data-thumbs="presupuesto">
+            <img src="https://via.placeholder.com/60x40/84CC16/FFFFFF?text=1" data-thumb-index="0" class="active" alt="mini 1">
+            <img src="https://via.placeholder.com/60x40/84CC16/FFFFFF?text=2" data-thumb-index="1" alt="mini 2">
+            <img src="https://via.placeholder.com/60x40/84CC16/FFFFFF?text=3" data-thumb-index="2" alt="mini 3">
+          </div>
+        </div>
+
+        <aside class="project-meta">
+          <p><strong>Descripción:</strong></p>
+          <p>Herramienta para gestionar proyectos y comparar presupuesto estimado vs real, permitiendo priorizar iniciativas y tomar decisiones basadas en datos operativos.</p>
+
+          <p><strong>Tecnologías:</strong></p>
+          <ul class="tech-list">
+            <li>Vue 3</li>
+            <li>Tailwind CSS</li>
+          </ul>
+
+          <a class="github-link" href="#" target="_blank" rel="noopener">Repositorio GitHub</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
