@@ -234,6 +234,7 @@ article { display: none; }
 .avatar-box {
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .info-content .name {
@@ -516,6 +517,7 @@ article { display: none; }
     border-bottom:1px solid var(--jet);
     position: sticky;
     top: 0;
+    color: white;
     background: var(--eerie-black2);
     z-index: 10;
 }
@@ -552,9 +554,9 @@ article { display: none; }
 }
 
 .carousel img { 
-    width:100%; 
-    height:auto; 
-    display:block; 
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .carousel-controls { 
@@ -591,6 +593,7 @@ article { display: none; }
     width:60px; 
     height:40px; 
     object-fit:cover; 
+    object-position: top;
     border-radius:4px; 
     cursor:pointer; 
     border:2px solid transparent; 
@@ -602,13 +605,21 @@ article { display: none; }
 
 .project-meta { 
     background:var(--onyx);
-    padding:1rem; 
+    position: sticky;
+    top: 90px;
+    max-height: max-content;
+    height: 100%;
+    padding: 1rem; 
     border-radius:14px; 
-    height:100%; 
+    color: white;
     display:flex; 
     flex-direction:column; 
     gap:0.75rem; 
     border: 1px solid var(--jet);
+}
+
+.project-meta > .p2 {
+    color: var(--light-gray70) !important;
 }
 
 .tech-list { 
@@ -881,8 +892,9 @@ article { display: none; }
 
     .project-img img {
         width: 100%;
-        height: 100%;
+        height: 180px;
         object-fit: cover;
+        object-position: top;
         transition: var(--transition1);
     }
 
