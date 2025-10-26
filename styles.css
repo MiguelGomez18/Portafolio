@@ -469,6 +469,7 @@ article { display: none; }
     transform: translate(15px, -25px);
     background: var(--bg-gradient-onyx);
     border-radius: 14px;
+    overflow: hidden;
     box-shadow: var(--shadow1);
 }
 
@@ -618,7 +619,7 @@ article { display: none; }
     border: 1px solid var(--jet);
 }
 
-.project-meta > .p2 {
+.p2 {
     color: var(--light-gray70) !important;
 }
 
@@ -1188,7 +1189,7 @@ textarea.form-input {
 
     .sidebar-info { gap: 25px; }
 
-    .avatar-box { border-radius: 30px; }
+    .avatar-box { border-radius: 30px; overflow: hidden; }
         .avatar-box img { width: 120px; }
 
     .info-content .name { margin-bottom: 15px; }
