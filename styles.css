@@ -1189,8 +1189,8 @@ textarea.form-input {
 
     .sidebar-info { gap: 25px; }
 
-    .avatar-box { border-radius: 30px; overflow: hidden; }
-        .avatar-box img { width: 120px; }
+    .avatar-box { border-radius: 20px; overflow: hidden; }
+        .avatar-box img { width: 120px; border-radius: 20px; overflow: hidden;}
 
     .info-content .name { margin-bottom: 15px; }
     .info-content .title { padding: 5px 10px; }
@@ -1519,7 +1519,7 @@ textarea.form-input {
 
     .sidebar-info { flex-direction: column; }
 
-    .avatar-box img { width: 150px; }
+    .avatar-box img { width: 150px; border-radius: 20px; overflow: hidden; }
 
     .info-content .name {
         white-space: wrap;
