@@ -1557,3 +1557,102 @@ textarea.form-input {
 
     .timeline-text { max-width: 700px; }
 }
+
+/* MEDIA QUERIES PARA MÓVILES - CORRECCIONES RESPONSIVE */
+@media (max-width: 767px) {
+  .modal {
+    width: 95%;
+    margin: 10px;
+    max-height: 92vh;
+  }
+  
+  .modal-body {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .project-meta {
+    order: 2;
+    position: static;
+    margin-top: 1rem;
+  }
+  
+  .carousel {
+    min-height: 200px;
+    order: 1;
+  }
+  
+  .carousel img {
+    max-height: auto;
+    object-fit: contain;
+  }
+  
+  .thumbs {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .thumbs img {
+    width: 65px;
+    height: 50px;
+  }
+  
+  .modal-header {
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  .modal-header h3 {
+    font-size: var(--fs4);
+  }
+  
+  /* Asegurar que el contenido sea scrollable */
+  .modal-overlay {
+    padding: 10px;
+    align-items: flex-start;
+  }
+  
+  .modal {
+    overflow-y: auto;
+  }
+}
+
+/* Correcciones adicionales para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .modal {
+    width: 98%;
+    margin: 5px;
+  }
+  
+  .carousel {
+    min-height: 180px;
+  }
+  
+  .carousel img {
+    max-height: auto;
+  }
+  
+  .thumbs img {
+    width: 65px;
+    height: 50px;
+  }
+  
+  .tech-list li {
+    font-size: var(--fs8);
+    padding: 4px 6px;
+  }
+  
+  .project-meta {
+    padding: 0.75rem;
+  }
+}
+
+/* Asegurar que los modales se cierren correctamente en móvil */
+@media (max-width: 767px) {
+  .modal-close {
+    font-size: 1.25rem;
+    padding: 0.25rem;
+  }
+}
